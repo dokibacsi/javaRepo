@@ -1,0 +1,48 @@
+main{
+    display: grid;
+    grid-template-areas:"he he he he"
+                        "dv dv dv dv"
+                        "ar ar ar ar";
+}
+
+header{
+    grid-area: he;
+}
+
+   /*#jatekter{
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+    grid-gap: 10px;
+}*/
+
+.divek{
+    grid-area: dv;
+    border: 3px solid gray;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+fieldset{
+    border: 2px solid black;
+    background-color: lightgray;
+
+}
+
+legend{
+    border: 2px solid black;
+    background-color: purple;
+    color: white;
+}
+
+article{
+    grid-area: ar;
+}
+
+input:focus{
+    color: white;
+    background-color: darkred;
+    border: 2px solid black;
+}
